@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{   
+    background-image: linear-gradient(lightblue , blue);
+}
+nav{
+    background-color: Black;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    color:white;
+}
+nav>h1{
+    padding: 30px;
+    padding-left: 50px;
+
+}
+.navright{
+    display: flex;
+    padding: 30px;
+    margin-left:450px ;
+}
+nav>div>ul{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 5px;
+}
+.navright>ul>li{
+    list-style-type: none;
+    padding-left:50px ;
+    font-weight: bold;
+}
+.navright>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.navright>ul>li>a:hover{
+    background-color: blue;
+}
+nav>div>button{
+    padding: 10px ;
+    background-color:red;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+nav>div>button:hover{
+    background-color: darkblue;
+}
+.selfintro{
+    padding-top: 100px;
+    margin-left: 200px;
+}
+.selfintro>h1{
+    padding: 10px 0;
+    font-size: 60px;
+}
+.selfintro>h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.selfintro>p{
+    padding-bottom: 10px;
+}
+.selfintro>button{
+    margin-top: 10px;
+    padding: 10px ;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.firstpage{
+    display: flex;
+}
+.myphoto1{
+    margin-left:300px;
+    margin-top:30px ;
+    border-radius: 100%;
+}
+.photo1{
+    border-radius: 50%;
+}
+.secondpage{
+    margin: 150px 0;
+    display: flex;
+}
+.myphoto2{
+    margin-left: 200px;
+    border-radius: 100%;
+}
+.photo2{
+    border-radius: 50%;
+}
+.about{
+    margin-left: 200px;
+}
+.about>h2{
+    font-size: 30px;
+}
+.about>h1{
+    font-size: 40px;
+}
+.about>p{
+    padding-top:20px ;
+    font-weight: 500;
+}
+.thirdpage{
+    margin: 150px 0;
+}
+.thirdpage>section{
+    display: flex;
+}
+.thirdpage > h1{
+    text-align: center;
+    font-size: 50px;
+}
+.skill{
+    text-align: center;
+    margin-left: 150px;
+    margin: 50px;
+    border: 4px black solid;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px 0 20px 0;
+    padding: 30px 0 0 0;
+    box-shadow: 5px 5px 5px black;
+}
+.skill>h4{
+    padding-top: 10px;
+}
+.skill2>h3{
+    padding-bottom: 10px;
+}
+.thirdpage>h1{
+    padding-bottom: 50px;
+}
+.fourthpage{
+    margin: 100px;
+}
+.fourthpage>section{
+    display: flex;
+}
+.fourthpage>h1{
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 40px;
+}
+.projectimg1 > img{
+    border-radius: 20px;
+    width: 250px;
+    padding-bottom: 10px;
+}
+.projectcontent1>h2{
+    padding-bottom: 10px;
+}
+.project{
+    border: 3px black solid;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 5px 5px 5px black;
+}
+.project1{
+    margin-left:20px ;
+}
+.project2{
+    margin-left:100px ;
+}
+.projectimg2>img{
+    border-radius:20px ;
+    width: 250px;
+    padding-bottom: 10px;
+}
+.projectcontent2>h2{
+    padding-bottom: 10px;
+}
+.projectimg3>img{
+    border-radius:20px ;
+    width: 250px;
+    padding-bottom: 10px;
+}
+.projectcontent3>h2{
+    padding-bottom: 10px;
+}
+.fifthpage{
+    margin: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.fifthpage>h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:100px ;
+}
+.fifthpage>section{
+    display: flex;
+}
+.education{
+    border: 3px black solid;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.education1{
+    margin-left: 30px;
+}
+.education2{
+    margin-left:100px;
+}
+.education>h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+}
+input{
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+}
+.contact2{
+    margin-left: 300px;
+}
+.contact2>button{
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contact2>button:hover{
+    background-color: darkblue;
+}
+.contact1{
+    margin-top: 50px;
+}
+.contact1>h1{
+    margin-bottom: 20px;
+    color: orangered;
+}
+.worktogether{
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.icon2{
+    margin-left: 20px;
+}
